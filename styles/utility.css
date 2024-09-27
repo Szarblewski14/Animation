@@ -1,0 +1,22 @@
+.gap-1{
+    gap: 1rem;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    color: var(--text-title);
+}
+h2 {
+    font-size: 2rem;
+    color: var(--text-title);
+}
+
+p {
+    color: var(--text-body);
+}
+
+
+span {
+    color: var(--blue-light);
+}
