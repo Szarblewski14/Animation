@@ -1,0 +1,13 @@
+.title {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (width: 600px) {
+    
+}
