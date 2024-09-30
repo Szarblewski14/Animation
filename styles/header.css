@@ -1,3 +1,8 @@
+.icons-header {
+    margin-top: 10rem;
+}
+
+
 .title {
     margin-top: 6rem;
     text-align: center;
@@ -9,20 +14,90 @@ p {
 }
 
 .text {
-    margin-top: 20rem;
+    margin-top: 0rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {
-    
+    .text {
+        & span {
+            display: none;
+        }
+        & > br {
+            display: none;
+        }
+        font-size: 1.5rem;
+        padding: 1rem;
+        font-weight: 450;
+    }
+
+    .title {
+        & > br {
+            display: none;
+        }
+        font-size: 2rem;
+    }
+
+    .icon-2 {
+        
+    }
+    .icon-3 {
+        display: none;
+    }
 }
+
+
 
 .icons {
     display: flex;
     overflow: hidden;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 12.5rem;
+    margin-top: 1rem;
 
-    & img:nth-child(1) {
-        width: 40px;
+    & img {
+        width: 3rem;
     }
-    
+
+    .icon-2 {
+        transform: rotate(100deg);
+    }
+
+    .icon-3 {
+        transform: rotate(-20deg);
+    }
+
 }
+
+.icon-1 {
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+    & img {
+        width: 4rem;
+        transform: rotate(25deg);
+    }
+}
+
+.icon-1 :hover {
+    width: 4.5rem;
+    transform: rotate(35deg);
+    transition: .2s;
+}
+
+.icon-2 :hover {
+    width: 3.5rem;
+    transform: rotate(15deg);
+    transition: .2s;
+}
+
+.icon-3 :hover {
+    width: 3.5rem;
+    transform: rotate(-10deg);
+    transition: .2s;
+}
+
