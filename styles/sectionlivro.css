@@ -40,7 +40,6 @@ section {
 .books {
     display: flex;
     margin-top: 13rem;
-    position: relative;
     justify-content: center;
     
     & img {
@@ -96,4 +95,6 @@ section {
         }
     }
 }
+
+
 
