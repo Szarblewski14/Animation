@@ -37,13 +37,13 @@ nav {
     width: 5rem;
     height: 2.5rem;
     border-radius: .5rem;
-    border: none;
-
+    border: none
 }
 
 .btn:hover {
     background-color: var(--pink-base);
     cursor: pointer;
+    transition: .5s;
 }
 
 

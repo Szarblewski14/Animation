@@ -8,6 +8,21 @@ p {
     margin-top: 2rem;
 }
 
-@media (width: 600px) {
+.text {
+    margin-top: 20rem;
+}
+
+@media (max-width: 600px) {
+    
+}
+
+.icons {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+
+    & img:nth-child(1) {
+        width: 40px;
+    }
     
 }
