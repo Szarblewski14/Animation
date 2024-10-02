@@ -6,11 +6,13 @@
 .title {
     margin-top: 6rem;
     text-align: center;
+    text-shadow: 10px 5px 40px var(--pink-dark);
 }
 
-p {
+p{
     text-align: center;
     margin-top: 2rem;
+    text-shadow: 10px 5px 30px var(--blue-dark);
 }
 
 .text {

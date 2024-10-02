@@ -1,98 +1,107 @@
-section {
+section{
+    margin-top: 5rem;
+    p{
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        
+    }
+}
+
+
+.title-book {
     display: flex;
-    align-items: center;
-}
-
-.livro {
-    margin-top: 20rem;
     justify-content: center;
-    align-items: center;
 
-    & h2 {
+
+    .title-section{
+        display: flex;
         align-items: center;
-        margin-top: 3rem;
-    }
-
-    .stars {
-        align-items: center;
-        margin-top: 2.5rem;
-    }
-
-    & p {
-        margin-top: 0px;
     }
 }
+
 
 @media (max-width: 600px) {
-    & h2 {
-        font-size: 1.2rem;
-    }
-    & p {
-        font-size: .6rem;
+    .title-section{
+        h2{
+            font-size: 1.2rem;
+        }
     }
 }
 
+#book {
+   
+   display: flex;
+   margin-top: 15rem;
+   justify-content: center;
 
-.livro-2 {
-    justify-content: center;
-}
 
-.books {
-    display: flex;
-    margin-top: 13rem;
-    justify-content: center;
-    
-    & img {
+   & img {
         width: 29rem;
         height: 38rem;
-        position: absolute;
-        z-index: 5;
     }
 
-    & img:nth-child(2){
-        margin-left: 35rem;
-        margin-top: -7rem;
-        z-index: 4;
+    & img:nth-child(2) {
+        width: 13rem;
+        height: 37rem;
     }
 
-    & img:nth-child(3){
-        margin-left: 50rem;
-        z-index: 3;
+    & img:nth-child(3) {
+        width: 13rem;
+        height: 37rem;
     }
 
-    & img:nth-child(4){
-       margin-right: 33rem;
-       margin-top: 28rem;
-        z-index: 2;
-        height: 15.5rem;
-        width: 13.5rem;
+    & img:nth-child(4) {
+        width: 13rem;
+        height: 15rem;
+        margin-top: 25rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #book {
+
+        margin-top: 5rem;
+       & img:nth-child(1){
+        width: 10rem;
+        height: 10rem;
+       }
+
+       & img:nth-child(2){
+        width: 10rem;
+        height: 10rem;
+       }
+
+       & img:nth-child(3){
+        width: 10rem;
+        height: 10rem;
+       }
+
+       & img:nth-child(4){
+        width: 8rem;
+        height: 8rem;
+        margin-top: 4rem;
+       }
+    }
+}
+
+.legends {
+    display: flex;
+    font-size: 1rem;
+    gap: 16rem;
+    justify-content: center;
+    margin-top: -3rem;
+    p {
+        color: var(--pink-dark);
+        font-weight: 700;
+        text-shadow: 10px 10px 50px var(--pink-dark);
     }
 }
 
 @media (max-width: 600px) {
-    .books{
-
-        & img:nth-child(1) {
-            width: 11rem;
-            height: 16rem;
-            object-fit: cover;
-        }
-
-        & img:nth-child(2) {
-            width: 11rem;
-            height: 16rem;
-            margin-right: 23rem;
-        }
-
-        & img:nth-child(3) {
-            width: 11rem;
-            height: 16rem;
-            margin-right: 35rem;
-        }
-
-        & img:nth-child(4) {
-            display: none;
-        }
+    .legends {
+       display: none;
     }
 }
 

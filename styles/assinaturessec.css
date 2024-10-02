@@ -1,0 +1,138 @@
+
+.assinatures {
+    margin-top: 40rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-assinatures {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+    align-items: center;
+}
+
+
+
+.card{
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: -20px 30px 100px var(--blue-dark);
+   
+
+
+    width: 320px;
+    height: 470px;
+
+    background-color: var(--shape-hover);
+    border-radius: 1rem;
+
+    & span {
+        display: flex;
+        padding: 2rem;
+        color: var(--pink-ligth);
+        font-weight: 600;
+    }
+
+    h2 {
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    p {
+        display: flex;
+        margin-right: 5rem;
+        padding: 1rem;
+    }
+   
+}
+
+.cards-descritions {
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
+    align-items: center;
+    margin-top: 3.5rem;
+    
+
+    ul {
+        display: flex;
+        margin-top: -2rem;
+        flex-direction: column;
+        text-decoration: none;
+        gap: 2rem;
+    }
+
+    li {
+        align-items: center;
+        color: var(--text-body);
+    }
+
+    button {
+        margin-top: 3.5rem;
+
+        background-color: var(--pink-dark);
+        color: var(--text-body);
+
+        border: none;
+
+        padding: .6rem;
+        border-radius: .5rem;
+
+        cursor: pointer;
+        width: 70%;
+    }
+}
+.card:nth-child(2){
+    margin-left: 17rem;
+    margin-top: -25rem;
+    transform: rotate(-10deg);
+    background-color: var(--shape-base);
+    border: solid 1px var(--blue-low);
+    
+
+    span {
+        color: var(--blue-light);
+    }
+
+    button {
+        background-color: var(--blue-dark);
+        margin-top: 6.5rem;
+    }
+}
+
+
+.card:nth-child(3){
+
+    margin-left: 58rem;
+    margin-top: -30rem;
+    transform: rotate(10deg);
+    background-color: var(--shape-base);
+    border: solid 1px var(--blue-low);
+
+    span {
+        color: var(--blue-light);
+    }
+
+    button {
+        background-color: var(--blue-dark);
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #cards-contain {
+        .card:nth-child(2){
+            transform: rotate(0);
+            margin-left: 2.5rem;
+            margin-top: 2rem;
+        }
+
+        .card:nth-child(3){
+            transform: rotate(0);
+            margin-left: 2.5rem;
+            margin-top: 2rem;
+        }
+    }
+}
