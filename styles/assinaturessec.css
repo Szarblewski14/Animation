@@ -11,13 +11,14 @@
     justify-content: center;
     margin-bottom: 10rem;
     align-items: center;
+    
+    text-shadow: 10px 5px 30px var(--blue-dark);
 }
 
 
 
 .card{
     margin: auto;
-    border: 1px solid black;
     box-shadow: -20px 30px 100px var(--blue-dark);
    
 
@@ -84,6 +85,12 @@
         width: 70%;
     }
 }
+
+.card:nth-child(1){
+    position: relative;
+    z-index: 5;
+}
+
 .card:nth-child(2){
     margin-left: 17rem;
     margin-top: -25rem;
