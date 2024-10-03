@@ -92,7 +92,7 @@
 }
 
 .card:nth-child(2){
-    margin-left: 17rem;
+    margin-left: 20%;
     margin-top: -25rem;
     transform: rotate(-10deg);
     background-color: var(--shape-base);
@@ -111,9 +111,8 @@
 
 
 .card:nth-child(3){
-
-    margin-left: 58rem;
     margin-top: -30rem;
+    margin-left: 60%;
     transform: rotate(10deg);
     background-color: var(--shape-base);
     border: solid 1px var(--blue-low);
